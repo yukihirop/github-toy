@@ -2,16 +2,15 @@
 
 Toy to operate github. 🤖
 
-## build
+## Supported OSes
 
-```bash
-go build -o ./bin/gtoy
-```
+- Mac
+- Linux
 
 ## Usage
 
 ```bash
-$ bin/gtoy
+$ gtoy
 NAME:
    github-toy - Toy to operate github
 
@@ -33,6 +32,6 @@ GLOBAL OPTIONS:
 #### Update settings name
 
 ```bash
-GITHUB_AUTH_TOKEN=<your personal token> bin/gtoy settings --login yukihirop update --name yukihirop
-GITHUB_AUTH_TOKEN=<your personal token> bin/gtoy settings -l yukihirop update -n yukihirop@Hoge.inc
+GITHUB_AUTH_TOKEN=<your personal token> gtoy settings --login yukihirop update --name yukihirop
+GITHUB_AUTH_TOKEN=<your personal token> gtoy settings -l yukihirop update -n yukihirop@Hoge.inc
 ```
