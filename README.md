@@ -2,6 +2,23 @@
 
 Toy to operate github. 🤖
 
+## Install
+
+#### From source
+
+```bash
+go get github.com/yukihirop/github-toy
+cd $GOPATH/src/github.com/yukihirop/github-toy
+make install
+```
+
+#### From homebrew
+
+```bash
+brew tap yukihirop/github-toy
+brew install gtoy
+```
+
 ## Supported OSes
 
 - Mac
